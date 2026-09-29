@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "source_commit": "9dc0ea183f9e4c2348efabebc481eb5993296e13",
+    "working_tree_modified": false,
+    "source_sha256": {
+      "src/continuity/__init__.py": "1a6a2abc06e31694d87795568780389e2da0ac4999bfd105b7f5de1d0a8961a8",
+      "src/continuity/__main__.py": "ec7e429128b8012bafb659ccbec87d95a181b396333efcfe7f20781ef5fb3052",
+      "src/continuity/allocation.py": "9d42b4bba50d5a730ee9ebc31bff8cb83b3733f13c086f445083d92a54b09d44",
+      "src/continuity/cli.py": "51076bc2303229b5b4cc6bdff33758bf10cdcdf0718c3b99ed6b5aa314b092a7",
+      "src/continuity/evidence.py": "b370143159332d8b7e548149ceaeae5f1918fd89c63f8fc6d61e7ff427cea05e",
+      "src/continuity/simulation.py": "4c5e6598f3fb23ddbee74a09596a6a0d163b14860f65fb1514f547301cc9cfcc",
+      "visuals/build_media.py": "571add6cc8ad2804433ff0e26cf3421fbf6bf56a9a04cd574dd1f13e00e0b8df",
+      "visuals/make_video.py": "ab936681d68555e43f0f010451947cbf0d742d6b753bebc3d1196e107243037b",
+      "visuals/test_video.py": "85640046b292499c502e1275852ec40a135d93abc9e3455ce00d604531ab2b7c",
+      "visuals/verify_media.py": "be3fcad954f12fcba03569d55e83650d1cd3d28d731a220f815d3516ae609afc",
+      "pyproject.toml": "9f628959b5226fc761187aab333d42cbb4c16ccd997bb01da5ab78b2f2000dcf",
+      "visuals/requirements.txt": "d8fc76885a14432b8d0b7ecf369291bf9aeeb9f23a3c12b9064eaf5238c092c6"
+    },
+    "versions": {
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "simpy": "4.1.1",
+      "Pillow": "11.3.0",
+      "imageio-ffmpeg": "0.6.0"
+    }
+  },
+  "assets_sha256": {
+    "continuity_demo.mp4": "afb5f0f53dca17af0f40b2a597ea6e752206ca88fce293aa0b4040126cb96efe",
+    "continuity_demo.json": "99db8f9a362d791157d2e6da15b23f1bdf9c204d28f773a168b524cc8579732f",
+    "continuity_demo.srt": "b1c09865ee689e261c21fabeca21d5dac864fd7b74b847b8a9bf8e3feca8c675",
+    "preview.gif": "768f44dd0e74b9fce7cafd4363ae2ad12a6ce71a93b5da6284e8d477c2a164cd",
+    "poster.png": "0ccd822d8b0674418ec081123b43d581019ed98446f6b2b3f0029b946d08df13",
+    "comparison.svg": "d3774adfb78def2d5d251232bdc2537e9298e6719e9aacccb49288df2615cbd0"
+  },
+  "video": {
+    "width": 1080,
+    "height": 1350,
+    "fps": 24,
+    "duration": 60.0,
+    "audio": false
+  },
+  "seed": 20260929
+}

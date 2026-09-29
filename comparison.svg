@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" role="img" aria-labelledby="title description">
+<title id="title">Continuity allocation: measured comparison</title>
+<desc id="description">64 synthetic sites, 128 available crews, 16 held-out replications. Even allocation 27194.4 versus optimized 15563.8 mean weighted unresolved incident-hours. Lower is better.</desc>
+<rect width="1000" height="420" rx="16" fill="#0c1423"/>
+<g font-family="Arial,sans-serif" fill="#f0f4fa">
+<text x="40" y="50" font-size="28">Same crew budget. Measured allocation tradeoffs.</text>
+<text x="40" y="86" font-size="19" fill="#b1c0d3">64 sites · 128 crews · 72 hours · 16 held-out replications</text>
+<text x="40" y="142" font-size="22">Even allocation</text><text x="960" y="142" text-anchor="end" font-size="22">27,194</text>
+<rect x="40" y="158" width="920.0" height="34" rx="4" fill="#ffbb66"/>
+<text x="40" y="238" font-size="22">Optimized allocation</text><text x="960" y="238" text-anchor="end" font-size="22">15,564</text>
+<rect x="40" y="254" width="526.5" height="34" rx="4" fill="#58dcc1"/>
+<text x="40" y="335" font-size="23">42.8% reduction in mean weighted unresolved incident-hours</text>
+<text x="40" y="370" font-size="18" fill="#b1c0d3">Paired reduction 95% interval: [10,548, 12,713] weighted hours</text>
+<text x="40" y="401" font-size="17" fill="#b1c0d3">Independent synthetic study. This metric is not asset uptime.</text>
+</g></svg>

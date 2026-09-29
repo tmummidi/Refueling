@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:07,000
+Equal staffing sounds reasonable.
+But sites accumulate incidents at different rates.
+
+2
+00:00:07,000 --> 00:00:30,000
+Same incidents. Same crew budget.
+Watch the queues under each allocation.
+
+3
+00:00:30,000 --> 00:00:41,000
+Evaluate across independent runs.
+Unresolved incident-hours are not asset uptime.
+
+4
+00:00:41,000 --> 00:00:54,000
+Double incident arrival intensity.
+Better allocation still has a capacity limit.
+
+5
+00:00:54,000 --> 00:01:00,000
+Inspect the code, assumptions, and evidence.
+github.com/tmummidi/Refueling
