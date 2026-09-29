@@ -1,0 +1,1417 @@
+{
+  "project": "continuity",
+  "data": "independent synthetic incidents",
+  "training_seeds": [
+    1864495119,
+    636213631,
+    3339374245,
+    401269280
+  ],
+  "test_seeds": [
+    1987140358,
+    1080968708,
+    2256524217,
+    306054416,
+    1137045778,
+    800843649,
+    668918312,
+    3762417823,
+    718860847,
+    1255013831,
+    946102402,
+    2716028333,
+    180227945,
+    3399329735,
+    3685441725,
+    3421757453
+  ],
+  "stress_seeds": [
+    479712430,
+    2134664567,
+    3612238235,
+    1734947767,
+    2630780343,
+    2454174316,
+    637003426,
+    2625912682,
+    2428603256,
+    2923624521,
+    295917814,
+    2875551323,
+    2864376387,
+    350143157,
+    2474431401,
+    1849411701
+  ],
+  "allocation": [
+    1,
+    1,
+    2,
+    3,
+    1,
+    2,
+    2,
+    3,
+    1,
+    1,
+    2,
+    3,
+    1,
+    1,
+    3,
+    3,
+    1,
+    1,
+    2,
+    3,
+    1,
+    1,
+    2,
+    3,
+    1,
+    2,
+    3,
+    3,
+    1,
+    2,
+    2,
+    3,
+    1,
+    1,
+    3,
+    4,
+    1,
+    1,
+    3,
+    3,
+    1,
+    2,
+    2,
+    3,
+    1,
+    1,
+    3,
+    3,
+    1,
+    2,
+    3,
+    3,
+    1,
+    2,
+    2,
+    3,
+    1,
+    1,
+    2,
+    4,
+    1,
+    2,
+    3,
+    3
+  ],
+  "baseline_allocation": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "training_response_table": [
+    [
+      498.11205938206854,
+      34.495027770636554,
+      26.170372606669538,
+      25.920776594061458,
+      25.920776594061458
+    ],
+    [
+      1887.4504263486997,
+      181.84842248350736,
+      103.05190884264162,
+      98.82305667930248,
+      98.08697282402271
+    ],
+    [
+      5767.083052362272,
+      2373.897293775959,
+      439.7832968863238,
+      343.85217379366935,
+      331.58114147481274
+    ],
+    [
+      2570.3476658127347,
+      1400.753528126479,
+      478.8196125730158,
+      192.71492143616643,
+      162.60558704878352
+    ],
+    [
+      688.0283699927011,
+      41.4763516154116,
+      38.032386508423286,
+      38.032386508423286,
+      38.032386508423286
+    ],
+    [
+      2991.0803491964293,
+      357.93679290809257,
+      176.6822596779674,
+      168.42924127086536,
+      166.792496032016
+    ],
+    [
+      1774.2653719402654,
+      654.1957187960095,
+      135.5145949595692,
+      107.5671708790208,
+      104.17548838445069
+    ],
+    [
+      5797.601589745829,
+      3376.25780147383,
+      1456.7272859536915,
+      455.7289562362785,
+      347.09412620936945
+    ],
+    [
+      1405.9685272890601,
+      84.15666542748322,
+      67.05565969534577,
+      67.05565969534577,
+      67.05565969534577
+    ],
+    [
+      1164.448823230919,
+      139.89130738403122,
+      64.77004367933246,
+      59.14716525173661,
+      59.008744219038164
+    ],
+    [
+      4373.293592670449,
+      1986.7667222677383,
+      398.97610273993814,
+      255.44282263165587,
+      230.70165631980808
+    ],
+    [
+      9011.470415972317,
+      5202.673136566414,
+      1855.7383833168005,
+      607.2750490133,
+      508.92041092587044
+    ],
+    [
+      405.54421405847404,
+      29.14131880441404,
+      24.56388674800026,
+      24.56388674800026,
+      24.56388674800026
+    ],
+    [
+      2215.0156790359997,
+      260.8663671771537,
+      130.8014100638738,
+      119.02991593030859,
+      118.47568423103431
+    ],
+    [
+      6426.543290884181,
+      2838.805701010133,
+      787.8477395885398,
+      427.610541272613,
+      366.8529656150224
+    ],
+    [
+      2884.466027293635,
+      1569.5027113601056,
+      484.7033189203397,
+      190.27313830035712,
+      157.882088465028
+    ],
+    [
+      906.3658252696175,
+      71.71804822980003,
+      52.2669862525116,
+      50.66867255101626,
+      50.635898026028755
+    ],
+    [
+      2620.678284199838,
+      305.9152811267877,
+      160.26378396404823,
+      149.01555189643432,
+      147.51906070403538
+    ],
+    [
+      1701.0800775923635,
+      645.5678679304589,
+      150.07437568018088,
+      108.36475129008645,
+      103.14330681848426
+    ],
+    [
+      5070.133406405781,
+      2702.45460410336,
+      964.2341960351292,
+      374.7056385374767,
+      300.06197374168676
+    ],
+    [
+      1073.187680202451,
+      85.20353072692593,
+      66.64622463897594,
+      63.94082231737935,
+      63.94082231737935
+    ],
+    [
+      937.9599363439737,
+      110.11101495377198,
+      57.24659422579126,
+      51.263268329744434,
+      50.41658432513545
+    ],
+    [
+      4218.454468416604,
+      1769.99920844752,
+      410.39949528167864,
+      261.26245239579646,
+      239.7318356257207
+    ],
+    [
+      8358.314184937553,
+      4831.803750084548,
+      1600.9768884805576,
+      619.1460157851656,
+      506.11870224438496
+    ],
+    [
+      307.96640851125,
+      30.344775157755663,
+      22.97953596015349,
+      22.317393070767473,
+      22.317393070767473
+    ],
+    [
+      2684.166519503645,
+      401.3843087058032,
+      160.0481299772636,
+      141.203596464138,
+      138.35046768191077
+    ],
+    [
+      6424.179006360633,
+      2830.678439005987,
+      528.700361250671,
+      359.20041140632696,
+      341.71029982702805
+    ],
+    [
+      2766.933382105341,
+      1434.493987426822,
+      506.74677495423987,
+      194.14889588372023,
+      162.03064573254196
+    ],
+    [
+      882.5162718116404,
+      50.348754683587146,
+      41.403862472424834,
+      40.59256670976578,
+      40.59256670976578
+    ],
+    [
+      3250.8993601148295,
+      445.59281493393723,
+      185.21030995535511,
+      172.41910406266157,
+      171.5392735431411
+    ],
+    [
+      2033.1870973993935,
+      962.1565130033831,
+      263.6462004765118,
+      143.24227965895292,
+      125.4609114118451
+    ],
+    [
+      5542.323752117203,
+      2854.592324488127,
+      975.6896576282882,
+      393.21471137212785,
+      333.1470325705751
+    ],
+    [
+      1107.3971810745902,
+      68.5805882140688,
+      60.7455038771577,
+      60.7455038771577,
+      60.7455038771577
+    ],
+    [
+      1072.7240818366,
+      157.7145925499289,
+      67.13496902879601,
+      61.528636957326576,
+      61.22706383586819
+    ],
+    [
+      4823.996941297873,
+      2360.104824613167,
+      588.7772190815335,
+      302.71901043401243,
+      263.5493376054188
+    ],
+    [
+      9195.081441171853,
+      5285.406568967877,
+      2251.13772692697,
+      713.4034156520447,
+      563.1553821273116
+    ],
+    [
+      511.5065351152435,
+      38.622098935104205,
+      26.97393505263861,
+      26.149761233365847,
+      26.149761233365847
+    ],
+    [
+      1992.181990620934,
+      171.70226113012427,
+      108.01366063980964,
+      101.83263374438033,
+      100.65788829065565
+    ],
+    [
+      6006.261751834505,
+      2568.3621906457956,
+      689.0970393845935,
+      376.83160766633426,
+      335.53916538836245
+    ],
+    [
+      2725.4638972315593,
+      1444.8218674906525,
+      401.25393239166976,
+      189.12189033965075,
+      154.1683015016148
+    ],
+    [
+      1016.5041050042116,
+      61.50939445620444,
+      47.12379799086755,
+      45.09568451396551,
+      44.706892723528874
+    ],
+    [
+      2913.652450907898,
+      381.32215426331834,
+      182.36031202552473,
+      169.81452404273952,
+      168.52364927242286
+    ],
+    [
+      2033.575395221644,
+      909.0211374500263,
+      177.36289480262127,
+      119.58541682073083,
+      112.47959698500159
+    ],
+    [
+      5861.776099137796,
+      3499.6980684236223,
+      1335.4872768379698,
+      447.9855168295244,
+      341.36756397579063
+    ],
+    [
+      1113.5502471542438,
+      66.16152919293584,
+      58.14198904926791,
+      58.14198904926791,
+      58.14198904926791
+    ],
+    [
+      1004.9333209111363,
+      160.98932514092988,
+      65.27755239757933,
+      59.14520282526533,
+      58.49914960362627
+    ],
+    [
+      4276.096291257998,
+      2056.289766270924,
+      578.4415332760544,
+      274.24039753383084,
+      249.7323067737197
+    ],
+    [
+      8762.222039463444,
+      5213.442061098728,
+      2032.1117764385135,
+      669.2206244375963,
+      524.8710394002637
+    ],
+    [
+      352.9626868484179,
+      19.488855825578295,
+      17.48777550950035,
+      17.48777550950035,
+      17.48777550950035
+    ],
+    [
+      2567.6265881325116,
+      494.5832931687235,
+      168.8358072984672,
+      136.1878508733985,
+      130.3023555071619
+    ],
+    [
+      5877.958165383772,
+      2403.857573132465,
+      575.9026614954544,
+      419.12017739622206,
+      384.6048188695464
+    ],
+    [
+      2954.934067360997,
+      1689.7002147044013,
+      617.6008309325576,
+      242.37979870658722,
+      180.5293716111037
+    ],
+    [
+      704.7995230206345,
+      40.199601821179286,
+      36.74218738250304,
+      36.731237113874116,
+      36.731237113874116
+    ],
+    [
+      3829.7509383644674,
+      553.5178657299492,
+      220.3212753681347,
+      186.25457680049806,
+      183.49001374748747
+    ],
+    [
+      2040.124444075109,
+      891.5594915166168,
+      201.94267974596164,
+      124.40460875626675,
+      113.13623089027395
+    ],
+    [
+      5325.997649152148,
+      2842.3063000055586,
+      1133.3703333047401,
+      413.4336140394104,
+      325.1037575767357
+    ],
+    [
+      993.7289316370766,
+      74.69699270200833,
+      67.58203536639562,
+      67.17679837640247,
+      67.17679837640247
+    ],
+    [
+      1034.2136982005084,
+      145.4823016373446,
+      65.30074403981389,
+      57.635657060704986,
+      57.022493748633124
+    ],
+    [
+      3844.4051783935292,
+      1476.3240043302692,
+      365.99205146001725,
+      239.0028850133201,
+      223.88637917743202
+    ],
+    [
+      8665.890878187542,
+      5026.661550939081,
+      1715.6245443015782,
+      661.2567749841746,
+      511.5132575176022
+    ],
+    [
+      572.6104814637924,
+      38.051611095075195,
+      27.931476818358284,
+      27.393092337991412,
+      27.15891596744821
+    ],
+    [
+      2129.1385483051818,
+      292.39713059027235,
+      127.3714398403351,
+      112.62967810480274,
+      111.2101717209838
+    ],
+    [
+      6408.403861586772,
+      2605.6786002632066,
+      552.5799202718082,
+      373.817917205545,
+      346.9561740401143
+    ],
+    [
+      3019.4377852027696,
+      1853.7593468624393,
+      797.2044445460502,
+      266.9386370111024,
+      181.25151684114005
+    ]
+  ],
+  "solver": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "objective": 15097.733354905862,
+    "mip_gap": 0.0,
+    "dual_bound": 15097.73335490586,
+    "variables": 320,
+    "constraints": 65,
+    "crews_used": 128
+  },
+  "heldout": {
+    "means": {
+      "baseline": {
+        "arrivals": 2812.5625,
+        "completed": 2549.625,
+        "unfinished": 262.9375,
+        "weighted_unresolved_hours": 27194.361422921807,
+        "sla_observed": 2578.6875,
+        "sla_missed": 780.25,
+        "sla_pending": 233.875
+      },
+      "optimized": {
+        "arrivals": 2812.5625,
+        "completed": 2690.3125,
+        "unfinished": 122.25,
+        "weighted_unresolved_hours": 15563.828780320559,
+        "sla_observed": 2578.6875,
+        "sla_missed": 230.25,
+        "sla_pending": 233.875
+      }
+    },
+    "baseline_minus_optimized": {
+      "mean": 11630.532642601249,
+      "lower_95": 10548.122793411898,
+      "upper_95": 12712.9424917906,
+      "n": 16,
+      "method": "paired replication Student-t"
+    },
+    "replications": [
+      {
+        "seed": 1987140358,
+        "baseline": {
+          "arrivals": 2832,
+          "completed": 2609,
+          "unfinished": 223,
+          "weighted_unresolved_hours": 27186.970030523877,
+          "sla_observed": 2599,
+          "sla_missed": 811,
+          "sla_pending": 233
+        },
+        "optimized": {
+          "arrivals": 2832,
+          "completed": 2732,
+          "unfinished": 100,
+          "weighted_unresolved_hours": 16042.845068430137,
+          "sla_observed": 2599,
+          "sla_missed": 240,
+          "sla_pending": 233
+        }
+      },
+      {
+        "seed": 1080968708,
+        "baseline": {
+          "arrivals": 2788,
+          "completed": 2548,
+          "unfinished": 240,
+          "weighted_unresolved_hours": 24514.79844543253,
+          "sla_observed": 2566,
+          "sla_missed": 647,
+          "sla_pending": 222
+        },
+        "optimized": {
+          "arrivals": 2788,
+          "completed": 2667,
+          "unfinished": 121,
+          "weighted_unresolved_hours": 16308.995885043834,
+          "sla_observed": 2566,
+          "sla_missed": 255,
+          "sla_pending": 222
+        }
+      },
+      {
+        "seed": 2256524217,
+        "baseline": {
+          "arrivals": 2731,
+          "completed": 2483,
+          "unfinished": 248,
+          "weighted_unresolved_hours": 26435.56100438009,
+          "sla_observed": 2479,
+          "sla_missed": 684,
+          "sla_pending": 252
+        },
+        "optimized": {
+          "arrivals": 2731,
+          "completed": 2603,
+          "unfinished": 128,
+          "weighted_unresolved_hours": 15292.571602554068,
+          "sla_observed": 2479,
+          "sla_missed": 205,
+          "sla_pending": 252
+        }
+      },
+      {
+        "seed": 306054416,
+        "baseline": {
+          "arrivals": 2800,
+          "completed": 2557,
+          "unfinished": 243,
+          "weighted_unresolved_hours": 28272.966001463203,
+          "sla_observed": 2608,
+          "sla_missed": 852,
+          "sla_pending": 192
+        },
+        "optimized": {
+          "arrivals": 2800,
+          "completed": 2706,
+          "unfinished": 94,
+          "weighted_unresolved_hours": 14584.85102789074,
+          "sla_observed": 2608,
+          "sla_missed": 174,
+          "sla_pending": 192
+        }
+      },
+      {
+        "seed": 1137045778,
+        "baseline": {
+          "arrivals": 2895,
+          "completed": 2569,
+          "unfinished": 326,
+          "weighted_unresolved_hours": 29427.54280617403,
+          "sla_observed": 2656,
+          "sla_missed": 817,
+          "sla_pending": 239
+        },
+        "optimized": {
+          "arrivals": 2895,
+          "completed": 2750,
+          "unfinished": 145,
+          "weighted_unresolved_hours": 16621.833720711576,
+          "sla_observed": 2656,
+          "sla_missed": 270,
+          "sla_pending": 239
+        }
+      },
+      {
+        "seed": 800843649,
+        "baseline": {
+          "arrivals": 2760,
+          "completed": 2547,
+          "unfinished": 213,
+          "weighted_unresolved_hours": 25822.288682052586,
+          "sla_observed": 2548,
+          "sla_missed": 732,
+          "sla_pending": 212
+        },
+        "optimized": {
+          "arrivals": 2760,
+          "completed": 2659,
+          "unfinished": 101,
+          "weighted_unresolved_hours": 14614.461726960155,
+          "sla_observed": 2548,
+          "sla_missed": 184,
+          "sla_pending": 212
+        }
+      },
+      {
+        "seed": 668918312,
+        "baseline": {
+          "arrivals": 2849,
+          "completed": 2604,
+          "unfinished": 245,
+          "weighted_unresolved_hours": 24175.55945504441,
+          "sla_observed": 2602,
+          "sla_missed": 669,
+          "sla_pending": 247
+        },
+        "optimized": {
+          "arrivals": 2849,
+          "completed": 2708,
+          "unfinished": 141,
+          "weighted_unresolved_hours": 15881.674068851307,
+          "sla_observed": 2602,
+          "sla_missed": 276,
+          "sla_pending": 247
+        }
+      },
+      {
+        "seed": 3762417823,
+        "baseline": {
+          "arrivals": 2802,
+          "completed": 2527,
+          "unfinished": 275,
+          "weighted_unresolved_hours": 28614.00974961681,
+          "sla_observed": 2578,
+          "sla_missed": 774,
+          "sla_pending": 224
+        },
+        "optimized": {
+          "arrivals": 2802,
+          "completed": 2672,
+          "unfinished": 130,
+          "weighted_unresolved_hours": 15071.05626582869,
+          "sla_observed": 2578,
+          "sla_missed": 221,
+          "sla_pending": 224
+        }
+      },
+      {
+        "seed": 718860847,
+        "baseline": {
+          "arrivals": 2832,
+          "completed": 2547,
+          "unfinished": 285,
+          "weighted_unresolved_hours": 30191.75060155444,
+          "sla_observed": 2586,
+          "sla_missed": 827,
+          "sla_pending": 246
+        },
+        "optimized": {
+          "arrivals": 2832,
+          "completed": 2715,
+          "unfinished": 117,
+          "weighted_unresolved_hours": 16844.465655658347,
+          "sla_observed": 2586,
+          "sla_missed": 289,
+          "sla_pending": 246
+        }
+      },
+      {
+        "seed": 1255013831,
+        "baseline": {
+          "arrivals": 2888,
+          "completed": 2584,
+          "unfinished": 304,
+          "weighted_unresolved_hours": 29256.744190144324,
+          "sla_observed": 2628,
+          "sla_missed": 894,
+          "sla_pending": 260
+        },
+        "optimized": {
+          "arrivals": 2888,
+          "completed": 2737,
+          "unfinished": 151,
+          "weighted_unresolved_hours": 16263.499778605745,
+          "sla_observed": 2628,
+          "sla_missed": 266,
+          "sla_pending": 260
+        }
+      },
+      {
+        "seed": 946102402,
+        "baseline": {
+          "arrivals": 2759,
+          "completed": 2545,
+          "unfinished": 214,
+          "weighted_unresolved_hours": 24499.899796623744,
+          "sla_observed": 2526,
+          "sla_missed": 682,
+          "sla_pending": 233
+        },
+        "optimized": {
+          "arrivals": 2759,
+          "completed": 2616,
+          "unfinished": 143,
+          "weighted_unresolved_hours": 15399.806199268705,
+          "sla_observed": 2526,
+          "sla_missed": 217,
+          "sla_pending": 233
+        }
+      },
+      {
+        "seed": 2716028333,
+        "baseline": {
+          "arrivals": 2744,
+          "completed": 2470,
+          "unfinished": 274,
+          "weighted_unresolved_hours": 28501.771464540347,
+          "sla_observed": 2522,
+          "sla_missed": 818,
+          "sla_pending": 222
+        },
+        "optimized": {
+          "arrivals": 2744,
+          "completed": 2630,
+          "unfinished": 114,
+          "weighted_unresolved_hours": 14220.363457852933,
+          "sla_observed": 2522,
+          "sla_missed": 141,
+          "sla_pending": 222
+        }
+      },
+      {
+        "seed": 180227945,
+        "baseline": {
+          "arrivals": 2836,
+          "completed": 2555,
+          "unfinished": 281,
+          "weighted_unresolved_hours": 25700.46204768278,
+          "sla_observed": 2600,
+          "sla_missed": 776,
+          "sla_pending": 236
+        },
+        "optimized": {
+          "arrivals": 2836,
+          "completed": 2722,
+          "unfinished": 114,
+          "weighted_unresolved_hours": 14860.593462484678,
+          "sla_observed": 2600,
+          "sla_missed": 207,
+          "sla_pending": 236
+        }
+      },
+      {
+        "seed": 3399329735,
+        "baseline": {
+          "arrivals": 2849,
+          "completed": 2603,
+          "unfinished": 246,
+          "weighted_unresolved_hours": 27739.37190691733,
+          "sla_observed": 2611,
+          "sla_missed": 880,
+          "sla_pending": 238
+        },
+        "optimized": {
+          "arrivals": 2849,
+          "completed": 2733,
+          "unfinished": 116,
+          "weighted_unresolved_hours": 15555.243523406893,
+          "sla_observed": 2611,
+          "sla_missed": 217,
+          "sla_pending": 238
+        }
+      },
+      {
+        "seed": 3685441725,
+        "baseline": {
+          "arrivals": 2902,
+          "completed": 2562,
+          "unfinished": 340,
+          "weighted_unresolved_hours": 30513.029612417587,
+          "sla_observed": 2654,
+          "sla_missed": 894,
+          "sla_pending": 248
+        },
+        "optimized": {
+          "arrivals": 2902,
+          "completed": 2783,
+          "unfinished": 119,
+          "weighted_unresolved_hours": 16628.238899462423,
+          "sla_observed": 2654,
+          "sla_missed": 283,
+          "sla_pending": 248
+        }
+      },
+      {
+        "seed": 3421757453,
+        "baseline": {
+          "arrivals": 2734,
+          "completed": 2484,
+          "unfinished": 250,
+          "weighted_unresolved_hours": 24257.056972180828,
+          "sla_observed": 2496,
+          "sla_missed": 727,
+          "sla_pending": 238
+        },
+        "optimized": {
+          "arrivals": 2734,
+          "completed": 2612,
+          "unfinished": 122,
+          "weighted_unresolved_hours": 14830.76014211869,
+          "sla_observed": 2496,
+          "sla_missed": 239,
+          "sla_pending": 238
+        }
+      }
+    ]
+  },
+  "double_arrival_stress": {
+    "means": {
+      "baseline": {
+        "arrivals": 5617.8125,
+        "completed": 3450.9375,
+        "unfinished": 2166.875,
+        "weighted_unresolved_hours": 160178.0027253402,
+        "sla_observed": 5145.1875,
+        "sla_missed": 3759.25,
+        "sla_pending": 472.625
+      },
+      "optimized": {
+        "arrivals": 5617.8125,
+        "completed": 4083.375,
+        "unfinished": 1534.4375,
+        "weighted_unresolved_hours": 109292.26289657256,
+        "sla_observed": 5145.1875,
+        "sla_missed": 3515.875,
+        "sla_pending": 472.625
+      }
+    },
+    "baseline_minus_optimized": {
+      "mean": 50885.739828767626,
+      "lower_95": 49639.30427646925,
+      "upper_95": 52132.175381066,
+      "n": 16,
+      "method": "paired replication Student-t"
+    },
+    "replications": [
+      {
+        "seed": 479712430,
+        "baseline": {
+          "arrivals": 5543,
+          "completed": 3439,
+          "unfinished": 2104,
+          "weighted_unresolved_hours": 155551.2736606028,
+          "sla_observed": 5070,
+          "sla_missed": 3604,
+          "sla_pending": 473
+        },
+        "optimized": {
+          "arrivals": 5543,
+          "completed": 4124,
+          "unfinished": 1419,
+          "weighted_unresolved_hours": 102624.71476937785,
+          "sla_observed": 5070,
+          "sla_missed": 3190,
+          "sla_pending": 473
+        }
+      },
+      {
+        "seed": 2134664567,
+        "baseline": {
+          "arrivals": 5546,
+          "completed": 3380,
+          "unfinished": 2166,
+          "weighted_unresolved_hours": 151529.8704787781,
+          "sla_observed": 5081,
+          "sla_missed": 3773,
+          "sla_pending": 465
+        },
+        "optimized": {
+          "arrivals": 5546,
+          "completed": 3985,
+          "unfinished": 1561,
+          "weighted_unresolved_hours": 104224.71125241436,
+          "sla_observed": 5081,
+          "sla_missed": 3409,
+          "sla_pending": 465
+        }
+      },
+      {
+        "seed": 3612238235,
+        "baseline": {
+          "arrivals": 5626,
+          "completed": 3451,
+          "unfinished": 2175,
+          "weighted_unresolved_hours": 161132.2043183746,
+          "sla_observed": 5127,
+          "sla_missed": 3741,
+          "sla_pending": 499
+        },
+        "optimized": {
+          "arrivals": 5626,
+          "completed": 4096,
+          "unfinished": 1530,
+          "weighted_unresolved_hours": 107663.62193508392,
+          "sla_observed": 5127,
+          "sla_missed": 3469,
+          "sla_pending": 499
+        }
+      },
+      {
+        "seed": 1734947767,
+        "baseline": {
+          "arrivals": 5667,
+          "completed": 3473,
+          "unfinished": 2194,
+          "weighted_unresolved_hours": 161075.84740571908,
+          "sla_observed": 5205,
+          "sla_missed": 3803,
+          "sla_pending": 462
+        },
+        "optimized": {
+          "arrivals": 5667,
+          "completed": 4072,
+          "unfinished": 1595,
+          "weighted_unresolved_hours": 113232.66275430785,
+          "sla_observed": 5205,
+          "sla_missed": 3744,
+          "sla_pending": 462
+        }
+      },
+      {
+        "seed": 2630780343,
+        "baseline": {
+          "arrivals": 5521,
+          "completed": 3402,
+          "unfinished": 2119,
+          "weighted_unresolved_hours": 160146.48413932556,
+          "sla_observed": 5053,
+          "sla_missed": 3675,
+          "sla_pending": 468
+        },
+        "optimized": {
+          "arrivals": 5521,
+          "completed": 4012,
+          "unfinished": 1509,
+          "weighted_unresolved_hours": 108296.8324076179,
+          "sla_observed": 5053,
+          "sla_missed": 3375,
+          "sla_pending": 468
+        }
+      },
+      {
+        "seed": 2454174316,
+        "baseline": {
+          "arrivals": 5587,
+          "completed": 3443,
+          "unfinished": 2144,
+          "weighted_unresolved_hours": 160786.7090534569,
+          "sla_observed": 5112,
+          "sla_missed": 3807,
+          "sla_pending": 475
+        },
+        "optimized": {
+          "arrivals": 5587,
+          "completed": 4078,
+          "unfinished": 1509,
+          "weighted_unresolved_hours": 108034.48011847457,
+          "sla_observed": 5112,
+          "sla_missed": 3494,
+          "sla_pending": 475
+        }
+      },
+      {
+        "seed": 637003426,
+        "baseline": {
+          "arrivals": 5673,
+          "completed": 3437,
+          "unfinished": 2236,
+          "weighted_unresolved_hours": 165739.51480340763,
+          "sla_observed": 5164,
+          "sla_missed": 3821,
+          "sla_pending": 509
+        },
+        "optimized": {
+          "arrivals": 5673,
+          "completed": 4096,
+          "unfinished": 1577,
+          "weighted_unresolved_hours": 112385.98869617035,
+          "sla_observed": 5164,
+          "sla_missed": 3683,
+          "sla_pending": 509
+        }
+      },
+      {
+        "seed": 2625912682,
+        "baseline": {
+          "arrivals": 5646,
+          "completed": 3465,
+          "unfinished": 2181,
+          "weighted_unresolved_hours": 162560.91207864307,
+          "sla_observed": 5192,
+          "sla_missed": 3781,
+          "sla_pending": 454
+        },
+        "optimized": {
+          "arrivals": 5646,
+          "completed": 4099,
+          "unfinished": 1547,
+          "weighted_unresolved_hours": 112486.63094049497,
+          "sla_observed": 5192,
+          "sla_missed": 3529,
+          "sla_pending": 454
+        }
+      },
+      {
+        "seed": 2428603256,
+        "baseline": {
+          "arrivals": 5538,
+          "completed": 3458,
+          "unfinished": 2080,
+          "weighted_unresolved_hours": 156127.41858193063,
+          "sla_observed": 5066,
+          "sla_missed": 3682,
+          "sla_pending": 472
+        },
+        "optimized": {
+          "arrivals": 5538,
+          "completed": 4084,
+          "unfinished": 1454,
+          "weighted_unresolved_hours": 106677.89814399768,
+          "sla_observed": 5066,
+          "sla_missed": 3364,
+          "sla_pending": 472
+        }
+      },
+      {
+        "seed": 2923624521,
+        "baseline": {
+          "arrivals": 5622,
+          "completed": 3468,
+          "unfinished": 2154,
+          "weighted_unresolved_hours": 165538.43786064,
+          "sla_observed": 5160,
+          "sla_missed": 3779,
+          "sla_pending": 462
+        },
+        "optimized": {
+          "arrivals": 5622,
+          "completed": 4137,
+          "unfinished": 1485,
+          "weighted_unresolved_hours": 110651.89679936314,
+          "sla_observed": 5160,
+          "sla_missed": 3596,
+          "sla_pending": 462
+        }
+      },
+      {
+        "seed": 295917814,
+        "baseline": {
+          "arrivals": 5544,
+          "completed": 3465,
+          "unfinished": 2079,
+          "weighted_unresolved_hours": 154768.01422637707,
+          "sla_observed": 5076,
+          "sla_missed": 3634,
+          "sla_pending": 468
+        },
+        "optimized": {
+          "arrivals": 5544,
+          "completed": 4078,
+          "unfinished": 1466,
+          "weighted_unresolved_hours": 104688.46018231192,
+          "sla_observed": 5076,
+          "sla_missed": 3481,
+          "sla_pending": 468
+        }
+      },
+      {
+        "seed": 2875551323,
+        "baseline": {
+          "arrivals": 5674,
+          "completed": 3507,
+          "unfinished": 2167,
+          "weighted_unresolved_hours": 153002.4952259262,
+          "sla_observed": 5186,
+          "sla_missed": 3744,
+          "sla_pending": 488
+        },
+        "optimized": {
+          "arrivals": 5674,
+          "completed": 4117,
+          "unfinished": 1557,
+          "weighted_unresolved_hours": 105072.9499870957,
+          "sla_observed": 5186,
+          "sla_missed": 3411,
+          "sla_pending": 488
+        }
+      },
+      {
+        "seed": 2864376387,
+        "baseline": {
+          "arrivals": 5756,
+          "completed": 3467,
+          "unfinished": 2289,
+          "weighted_unresolved_hours": 164500.71344107567,
+          "sla_observed": 5258,
+          "sla_missed": 3889,
+          "sla_pending": 498
+        },
+        "optimized": {
+          "arrivals": 5756,
+          "completed": 4108,
+          "unfinished": 1648,
+          "weighted_unresolved_hours": 113860.61215899777,
+          "sla_observed": 5258,
+          "sla_missed": 3669,
+          "sla_pending": 498
+        }
+      },
+      {
+        "seed": 350143157,
+        "baseline": {
+          "arrivals": 5708,
+          "completed": 3488,
+          "unfinished": 2220,
+          "weighted_unresolved_hours": 159685.3536234954,
+          "sla_observed": 5247,
+          "sla_missed": 3820,
+          "sla_pending": 461
+        },
+        "optimized": {
+          "arrivals": 5708,
+          "completed": 4108,
+          "unfinished": 1600,
+          "weighted_unresolved_hours": 110104.128681403,
+          "sla_observed": 5247,
+          "sla_missed": 3652,
+          "sla_pending": 461
+        }
+      },
+      {
+        "seed": 2474431401,
+        "baseline": {
+          "arrivals": 5600,
+          "completed": 3441,
+          "unfinished": 2159,
+          "weighted_unresolved_hours": 161636.71976315096,
+          "sla_observed": 5163,
+          "sla_missed": 3809,
+          "sla_pending": 437
+        },
+        "optimized": {
+          "arrivals": 5600,
+          "completed": 4038,
+          "unfinished": 1562,
+          "weighted_unresolved_hours": 112711.53918647714,
+          "sla_observed": 5163,
+          "sla_missed": 3584,
+          "sla_pending": 437
+        }
+      },
+      {
+        "seed": 1849411701,
+        "baseline": {
+          "arrivals": 5634,
+          "completed": 3431,
+          "unfinished": 2203,
+          "weighted_unresolved_hours": 169066.0749445395,
+          "sla_observed": 5163,
+          "sla_missed": 3786,
+          "sla_pending": 471
+        },
+        "optimized": {
+          "arrivals": 5634,
+          "completed": 4102,
+          "unfinished": 1532,
+          "weighted_unresolved_hours": 115959.07833157302,
+          "sla_observed": 5163,
+          "sla_missed": 3604,
+          "sla_pending": 471
+        }
+      }
+    ]
+  },
+  "simulated_incident_executions": 326132,
+  "evidence": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+    "logical_cpus": 9,
+    "cpu_affinity_count": 9,
+    "cgroup_limits": {
+      "cpu.max": "800000 100000",
+      "memory.max": "8589934592"
+    },
+    "versions": {
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "simpy": "4.1.1"
+    },
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "config": {
+      "sites": 64,
+      "budget": 128,
+      "max_crews": 4,
+      "horizon": 72.0,
+      "sla_hours": 6.0,
+      "train_seeds": 4,
+      "test_seeds": 16,
+      "seed": 20260929,
+      "surge": 1.0
+    },
+    "config_sha256": "a6b92fa459e00b43a8d0a5ab3238a7af4d21cec02e78171358c6b765f58c0bae",
+    "status": "executed",
+    "runtime_seconds": 3.9401862889999393,
+    "peak_rss_mib": 90.0234375,
+    "memory_method": "process peak RSS via getrusage; unavailable on Windows",
+    "throughput_per_second": 82770.70576852743,
+    "throughput_unit": "incident executions",
+    "throughput_note": "Derived from executed runtime; numerator is a project-specific work count, not solver-only speed"
+  },
+  "work_units": {
+    "count": 326132,
+    "unit": "incident executions"
+  }
+}

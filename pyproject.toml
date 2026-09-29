@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools==75.8.2", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tarun-continuity"
+version = "0.1.0"
+description = "Infrastructure continuity through simulation and crew allocation"
+requires-python = ">=3.10"
+dependencies = ["numpy==1.26.4", "scipy==1.13.1", "simpy==4.1.1"]
+license = {file = "LICENSE"}
+
+[project.scripts]
+continuity = "continuity.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["continuity*"]
