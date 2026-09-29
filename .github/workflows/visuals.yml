@@ -1,0 +1,81 @@
+name: visual-evidence
+on:
+  push:
+    branches: [main]
+    paths: ['src/**', 'visuals/**', 'tests/**', 'pyproject.toml', '.github/workflows/visuals.yml']
+  pull_request:
+    paths: ['src/**', 'visuals/**', 'tests/**', 'pyproject.toml', '.github/workflows/visuals.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visual-evidence-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  verify:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install . -r visuals/requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python -m unittest discover -s visuals -v
+      - run: python visuals/make_video.py --width 720 --fps 2 --duration 2 --output smoke/continuity_demo.mp4
+  render:
+    needs: verify
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install . -r visuals/requirements.txt
+      - run: python visuals/make_video.py --output media/continuity_demo.mp4
+      - run: python visuals/build_media.py --directory media
+      - run: python visuals/verify_media.py --directory media
+      - uses: actions/upload-artifact@v4
+        with:
+          name: continuity-visual-evidence
+          path: media/
+          retention-days: 14
+  publish:
+    needs: render
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          path: media-publish
+      - uses: actions/download-artifact@v4
+        with:
+          name: continuity-visual-evidence
+          path: generated-media
+      - name: Commit verified generated assets
+        shell: bash
+        working-directory: media-publish
+        env:
+          SOURCE_REVISION: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git show-ref --verify --quiet refs/remotes/origin/visual-assets; then
+            git switch --track origin/visual-assets
+          else
+            git switch --orphan visual-assets
+          fi
+          cp ../generated-media/* .
+          git add -- README.md continuity_demo.mp4 continuity_demo.json continuity_demo.srt preview.gif poster.png comparison.svg manifest.json preview-*.png
+          if ! git diff --cached --quiet; then
+            git commit -m "Render verified simulation visuals from ${SOURCE_REVISION}"
+            git push origin HEAD:visual-assets
+          fi

@@ -2,6 +2,29 @@
 
 **Decision:** Pre-position scarce repair crews across sites for a 72-hour incident horizon.
 
+[![Visual evidence checks](https://github.com/tmummidi/Refueling/actions/workflows/visuals.yml/badge.svg)](https://github.com/tmummidi/Refueling/actions/workflows/visuals.yml)
+
+### See the decision play out
+
+[![Synchronized replay: the same incidents under even and optimized crew allocation](https://raw.githubusercontent.com/tmummidi/Refueling/visual-assets/preview.gif)](https://github.com/tmummidi/Refueling/blob/visual-assets/continuity_demo.mp4)
+
+**[Watch or download the 60-second video](https://github.com/tmummidi/Refueling/blob/visual-assets/continuity_demo.mp4)** ·
+[Run the renderer](visuals/README.md) ·
+[Inspect event logs](https://github.com/tmummidi/Refueling/blob/visual-assets/continuity_demo.json) ·
+[Check source revision](https://github.com/tmummidi/Refueling/blob/visual-assets/manifest.json)
+
+The animation replays one held-out **8-site** scenario with identical incidents
+and a shared clock under both policies. Busy/assigned crew counts and waiting
+queues come from actual SimPy events. The separate **64-site** chart below
+summarizes 16 independent evaluation replications. All data are synthetic.
+
+![Measured comparison across 16 held-out replications](https://raw.githubusercontent.com/tmummidi/Refueling/visual-assets/comparison.svg)
+
+Changes to the model or renderer trigger checks and regenerate these visuals
+from the same checkout. Published media records the source commit and file
+hashes; the last successful version remains visible if a newer build fails.
+The video is captioned and silent; the generator supports optional narration.
+
 Queues become nonlinear near saturation. Uniform staffing can leave high-load sites backlogged while crews at quieter sites remain underused.
 
 This is a working v0.1 research engineering release, with synthetic data, a free

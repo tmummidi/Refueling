@@ -1,0 +1,18 @@
+You have sixteen repair crews across eight sites. Where should they go for the
+next seventy-two hours?
+
+Equal staffing sounds reasonable. But incident demand varies, and some sites
+accumulate queues while others have spare capacity.
+
+Here, both policies receive exactly the same incidents. SimPy models the queues.
+A mixed-integer optimizer chooses where to assign the available crews.
+
+The animation is one held-out scenario. To evaluate the method, we also run an
+independent, sixty-four-site benchmark across sixteen replications. The result
+and uncertainty interval are calculated directly from those runs.
+
+Then we double the incident arrival intensity. The allocation stays fixed, and
+the remaining backlog shows its capacity limits.
+
+This is an independent synthetic study. The code, assumptions, tests, and
+reproducible evidence are public.
