@@ -1,0 +1,101 @@
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - setuptools==75.8.2
+  - wheel==0.45.1
+* Getting build dependencies for wheel...
+running egg_info
+creating src/tarun_continuity.egg-info
+writing src/tarun_continuity.egg-info/PKG-INFO
+writing dependency_links to src/tarun_continuity.egg-info/dependency_links.txt
+writing entry points to src/tarun_continuity.egg-info/entry_points.txt
+writing requirements to src/tarun_continuity.egg-info/requires.txt
+writing top-level names to src/tarun_continuity.egg-info/top_level.txt
+writing manifest file 'src/tarun_continuity.egg-info/SOURCES.txt'
+reading manifest file 'src/tarun_continuity.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/tarun_continuity.egg-info/SOURCES.txt'
+* Building wheel...
+running bdist_wheel
+running build
+running build_py
+creating build/lib/continuity
+copying src/continuity/__main__.py -> build/lib/continuity
+copying src/continuity/evidence.py -> build/lib/continuity
+copying src/continuity/allocation.py -> build/lib/continuity
+copying src/continuity/__init__.py -> build/lib/continuity
+copying src/continuity/simulation.py -> build/lib/continuity
+copying src/continuity/cli.py -> build/lib/continuity
+running egg_info
+writing src/tarun_continuity.egg-info/PKG-INFO
+writing dependency_links to src/tarun_continuity.egg-info/dependency_links.txt
+writing entry points to src/tarun_continuity.egg-info/entry_points.txt
+writing requirements to src/tarun_continuity.egg-info/requires.txt
+writing top-level names to src/tarun_continuity.egg-info/top_level.txt
+reading manifest file 'src/tarun_continuity.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/tarun_continuity.egg-info/SOURCES.txt'
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/continuity
+copying build/lib/continuity/__main__.py -> build/bdist.linux-x86_64/wheel/./continuity
+copying build/lib/continuity/evidence.py -> build/bdist.linux-x86_64/wheel/./continuity
+copying build/lib/continuity/allocation.py -> build/bdist.linux-x86_64/wheel/./continuity
+copying build/lib/continuity/__init__.py -> build/bdist.linux-x86_64/wheel/./continuity
+copying build/lib/continuity/simulation.py -> build/bdist.linux-x86_64/wheel/./continuity
+copying build/lib/continuity/cli.py -> build/bdist.linux-x86_64/wheel/./continuity
+running install_egg_info
+Copying src/tarun_continuity.egg-info to build/bdist.linux-x86_64/wheel/./tarun_continuity-0.1.0-py3.12.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/tarun_continuity-0.1.0.dist-info/WHEEL
+creating '/workspace/scratch/e8d59f94b615/projects/Refueling/dist/.tmp-8wvzda0f/tarun_continuity-0.1.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'continuity/__init__.py'
+adding 'continuity/__main__.py'
+adding 'continuity/allocation.py'
+adding 'continuity/cli.py'
+adding 'continuity/evidence.py'
+adding 'continuity/simulation.py'
+adding 'tarun_continuity-0.1.0.dist-info/LICENSE'
+adding 'tarun_continuity-0.1.0.dist-info/METADATA'
+adding 'tarun_continuity-0.1.0.dist-info/WHEEL'
+adding 'tarun_continuity-0.1.0.dist-info/entry_points.txt'
+adding 'tarun_continuity-0.1.0.dist-info/top_level.txt'
+adding 'tarun_continuity-0.1.0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built tarun_continuity-0.1.0-py3-none-any.whl
+
+
+Processing ./projects/Refueling/dist/tarun_continuity-0.1.0-py3-none-any.whl
+Collecting numpy==1.26.4 (from tarun-continuity==0.1.0)
+  Using cached numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+Collecting scipy==1.13.1 (from tarun-continuity==0.1.0)
+  Using cached scipy-1.13.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+Collecting simpy==4.1.1 (from tarun-continuity==0.1.0)
+  Using cached simpy-4.1.1-py3-none-any.whl.metadata (6.1 kB)
+Using cached numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.0 MB)
+Using cached scipy-1.13.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38.2 MB)
+Using cached simpy-4.1.1-py3-none-any.whl (27 kB)
+Installing collected packages: simpy, numpy, scipy, tarun-continuity
+Successfully installed numpy-1.26.4 scipy-1.13.1 simpy-4.1.1 tarun-continuity-0.1.0
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: python -m pip install --upgrade pip
+
+test_budget_validation (test_science.AllocationTests.test_budget_validation) ... ok
+test_matches_exhaustive_optimum (test_science.AllocationTests.test_matches_exhaustive_optimum) ... ok
+test_seed_partitions_and_small_pipeline (test_science.AllocationTests.test_seed_partitions_and_small_pipeline) ... ok
+test_conservation_and_more_crews (test_science.QueueTests.test_conservation_and_more_crews) ... ok
+test_exact_boundary_completion (test_science.QueueTests.test_exact_boundary_completion) ... ok
+test_hand_computed_fifo_queue (test_science.QueueTests.test_hand_computed_fifo_queue) ... ok
+test_reject_invalid_jobs (test_science.QueueTests.test_reject_invalid_jobs) ... ok
+test_zero_crews_and_horizon_censoring (test_science.QueueTests.test_zero_crews_and_horizon_censoring) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.045s
+
+OK
+
+{"output": "/workspace/scratch/e8d59f94b615/projects/Refueling/results/installed-demo.json", "runtime_seconds": 0.0161}
+
+No broken requirements found.

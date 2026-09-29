@@ -1,0 +1,284 @@
+{
+  "work_units": {
+    "count": 1121,
+    "unit": "incident executions"
+  },
+  "project": "continuity",
+  "data": "independent synthetic incidents",
+  "training_seeds": [
+    1864495119,
+    636213631
+  ],
+  "test_seeds": [
+    1987140358,
+    1080968708,
+    2256524217
+  ],
+  "stress_seeds": [
+    479712430,
+    2134664567,
+    3612238235
+  ],
+  "allocation": [
+    1,
+    2
+  ],
+  "baseline_allocation": [
+    2,
+    1
+  ],
+  "training_response_table": [
+    [
+      545.7252118518131,
+      39.74499728438697,
+      30.37682362077614,
+      30.37682362077614,
+      30.37682362077614
+    ],
+    [
+      1304.829394673847,
+      107.90184882831213,
+      78.63980123800084,
+      76.78445632431593,
+      76.78445632431593
+    ]
+  ],
+  "solver": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "objective": 118.38479852238781,
+    "mip_gap": 0.0,
+    "dual_bound": 118.38479852238781,
+    "variables": 10,
+    "constraints": 3,
+    "crews_used": 3
+  },
+  "heldout": {
+    "means": {
+      "baseline": {
+        "arrivals": 47.0,
+        "completed": 42.0,
+        "unfinished": 5.0,
+        "weighted_unresolved_hours": 410.4251379868554,
+        "sla_observed": 42.333333333333336,
+        "sla_missed": 11.666666666666666,
+        "sla_pending": 4.666666666666667
+      },
+      "optimized": {
+        "arrivals": 47.0,
+        "completed": 45.333333333333336,
+        "unfinished": 1.6666666666666667,
+        "weighted_unresolved_hours": 181.13635565560935,
+        "sla_observed": 42.333333333333336,
+        "sla_missed": 1.0,
+        "sla_pending": 4.666666666666667
+      }
+    },
+    "baseline_minus_optimized": {
+      "mean": 229.28878233124615,
+      "lower_95": -238.94346226080742,
+      "upper_95": 697.5210269232997,
+      "n": 3,
+      "method": "paired replication Student-t"
+    },
+    "replications": [
+      {
+        "seed": 1987140358,
+        "baseline": {
+          "arrivals": 54,
+          "completed": 44,
+          "unfinished": 10,
+          "weighted_unresolved_hours": 648.9747837642907,
+          "sla_observed": 50,
+          "sla_missed": 21,
+          "sla_pending": 4
+        },
+        "optimized": {
+          "arrivals": 54,
+          "completed": 53,
+          "unfinished": 1,
+          "weighted_unresolved_hours": 218.24763531611876,
+          "sla_observed": 50,
+          "sla_missed": 2,
+          "sla_pending": 4
+        }
+      },
+      {
+        "seed": 1080968708,
+        "baseline": {
+          "arrivals": 49,
+          "completed": 46,
+          "unfinished": 3,
+          "weighted_unresolved_hours": 398.9943893703378,
+          "sla_observed": 42,
+          "sla_missed": 13,
+          "sla_pending": 7
+        },
+        "optimized": {
+          "arrivals": 49,
+          "completed": 47,
+          "unfinished": 2,
+          "weighted_unresolved_hours": 199.04564294134622,
+          "sla_observed": 42,
+          "sla_missed": 1,
+          "sla_pending": 7
+        }
+      },
+      {
+        "seed": 2256524217,
+        "baseline": {
+          "arrivals": 38,
+          "completed": 36,
+          "unfinished": 2,
+          "weighted_unresolved_hours": 183.30624082593806,
+          "sla_observed": 35,
+          "sla_missed": 1,
+          "sla_pending": 3
+        },
+        "optimized": {
+          "arrivals": 38,
+          "completed": 36,
+          "unfinished": 2,
+          "weighted_unresolved_hours": 126.11578870936309,
+          "sla_observed": 35,
+          "sla_missed": 0,
+          "sla_pending": 3
+        }
+      }
+    ]
+  },
+  "double_arrival_stress": {
+    "means": {
+      "baseline": {
+        "arrivals": 80.66666666666667,
+        "completed": 55.0,
+        "unfinished": 25.666666666666668,
+        "weighted_unresolved_hours": 2070.604707793777,
+        "sla_observed": 74.0,
+        "sla_missed": 50.666666666666664,
+        "sla_pending": 6.666666666666667
+      },
+      "optimized": {
+        "arrivals": 80.66666666666667,
+        "completed": 76.0,
+        "unfinished": 4.666666666666667,
+        "weighted_unresolved_hours": 626.2470637983689,
+        "sla_observed": 74.0,
+        "sla_missed": 22.666666666666668,
+        "sla_pending": 6.666666666666667
+      }
+    },
+    "baseline_minus_optimized": {
+      "mean": 1444.3576439954086,
+      "lower_95": 150.53288551603805,
+      "upper_95": 2738.1824024747793,
+      "n": 3,
+      "method": "paired replication Student-t"
+    },
+    "replications": [
+      {
+        "seed": 479712430,
+        "baseline": {
+          "arrivals": 82,
+          "completed": 52,
+          "unfinished": 30,
+          "weighted_unresolved_hours": 2552.2541988327675,
+          "sla_observed": 75,
+          "sla_missed": 57,
+          "sla_pending": 7
+        },
+        "optimized": {
+          "arrivals": 82,
+          "completed": 79,
+          "unfinished": 3,
+          "weighted_unresolved_hours": 560.6393598887657,
+          "sla_observed": 75,
+          "sla_missed": 12,
+          "sla_pending": 7
+        }
+      },
+      {
+        "seed": 2134664567,
+        "baseline": {
+          "arrivals": 86,
+          "completed": 54,
+          "unfinished": 32,
+          "weighted_unresolved_hours": 2359.0048192214813,
+          "sla_observed": 81,
+          "sla_missed": 52,
+          "sla_pending": 5
+        },
+        "optimized": {
+          "arrivals": 86,
+          "completed": 78,
+          "unfinished": 8,
+          "weighted_unresolved_hours": 972.2877982036348,
+          "sla_observed": 81,
+          "sla_missed": 48,
+          "sla_pending": 5
+        }
+      },
+      {
+        "seed": 3612238235,
+        "baseline": {
+          "arrivals": 74,
+          "completed": 59,
+          "unfinished": 15,
+          "weighted_unresolved_hours": 1300.5551053270833,
+          "sla_observed": 66,
+          "sla_missed": 43,
+          "sla_pending": 8
+        },
+        "optimized": {
+          "arrivals": 74,
+          "completed": 71,
+          "unfinished": 3,
+          "weighted_unresolved_hours": 345.8140333027063,
+          "sla_observed": 66,
+          "sla_missed": 8,
+          "sla_pending": 8
+        }
+      }
+    ]
+  },
+  "simulated_incident_executions": 1121,
+  "evidence": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+    "logical_cpus": 9,
+    "cpu_affinity_count": 9,
+    "cgroup_limits": {
+      "cpu.max": "800000 100000",
+      "memory.max": "8589934592"
+    },
+    "versions": {
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "simpy": "4.1.1"
+    },
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "config": {
+      "sites": 2,
+      "budget": 3,
+      "max_crews": 4,
+      "horizon": 72.0,
+      "sla_hours": 6.0,
+      "train_seeds": 2,
+      "test_seeds": 3,
+      "seed": 20260929,
+      "surge": 1.0
+    },
+    "config_sha256": "e660c4135a278e01f1005c61890013e6751394d1c5092e8670d44a702940a345",
+    "status": "executed",
+    "runtime_seconds": 0.016128237999964767,
+    "peak_rss_mib": 87.8671875,
+    "memory_method": "process peak RSS via getrusage; unavailable on Windows",
+    "throughput_per_second": 69505.4227251885,
+    "throughput_unit": "incident executions"
+  }
+}

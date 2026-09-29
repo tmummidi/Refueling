@@ -1,0 +1,11 @@
+{
+  "sites": 16,
+  "budget": 32,
+  "max_crews": 4,
+  "horizon": 72.0,
+  "sla_hours": 6.0,
+  "train_seeds": 4,
+  "test_seeds": 16,
+  "seed": 20260929,
+  "surge": 1.0
+}
